@@ -3,15 +3,27 @@
     <body>
         <h1>Make Your Sandwich</h1>
         <form action="/submit">
-            <label for="name">Type the name for the order:</label><br>
+            <label for="name">Type the name for the order:</labelgit><br>
             <input type="text" id="name" name="name">
             <br>
             <fieldset>
                 <legend>Choose your bread</legend>
+
                 <input type="radio" id="whole" name="bread" value="whole" />
                 <label for="whole">Whole</label>
+
                 <input type="radio" id="white" name="bread" value="white" />
                 <label for="white">White</label>
+
+                <input type="radio" id="bagguette" name="bread" value="bagguette" />
+                <label for="bagguette">Bagguette</label>
+            </fieldset>
+            <fieldset>
+                <legend>Choose your veggies</legend>
+
+                <input type="checkbox" id="lettuce" name="veggies" value="lettuce" />
+                <label for="lettuce">Lettuce</label>
+                
             </fieldset>
             <br>
             <button type="submit">Submit</button>
