@@ -6,9 +6,13 @@
             <lable for="name">Type the name for the order:</lable><br>
             <input type="text" id="name" name="name">
             <br>
-            <h4>Choose your bread type:</h4><br>
-            <input type="radio" id="whole" name="bread" value="whole" />
-            <lable for="whole">whole</lable>
+            <fieldset>
+                <legend>Choose your bread</legend>
+                <input type="radio" id="whole" name="bread" value="whole" />
+                <lable for="whole">whole</lable>
+                <input type="radio" id="white" name="bread" value="white" />
+                <lable for="white">White</lable>
+            </fieldset>
             <br>
             <button type="submit">Submit</button>
         </form>
