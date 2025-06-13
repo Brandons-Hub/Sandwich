@@ -23,3 +23,11 @@ fieldset {
 label {
     font-size: large;
 }
+
+.sam {
+    position: fixed;
+    top: .1px;
+    left: .1px;
+    height: auto;
+    width: 50px;
+}
