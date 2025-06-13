@@ -1,3 +1,25 @@
 body {
-    background-color: aqua;
+    background-color: ivory;
+    text-align: center;
+}
+
+input#name {
+    background-color: beige;
+    border-color: sandybrown;
+}
+
+input#special {
+    background-color: beige;
+    border-color: sandybrown;
+}
+
+fieldset {
+    border-width: thick;
+    width: fit-content;
+    margin: auto;
+    border-color: sandybrown;
+}
+
+label {
+    font-size: large;
 }
